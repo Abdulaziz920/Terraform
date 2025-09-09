@@ -1,4 +1,4 @@
 resource "local_file" "my_pet" {
-filename = "pets.txt"
-content = "Abdul Aziz Here"
+filename = var.filename
+content = var.content
 }
